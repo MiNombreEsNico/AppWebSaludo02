@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Saludo y Cálculo de Áreas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="contenedor-principal">
+        <section>
+            <h2>Saludo Personalizado</h2>
+            <form id="saludoForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <button type="submit">Saludar</button>
+            </form>
+            <div class="resultado-card" id="saludoResultado"></div>
+        </section>
+
+        <section>
+            <h2>Calculadora de Áreas</h2>
+            <form id="areaForm">
+                <label for="base">Base:</label>
+                <input type="number" id="base" name="base" step="any" required>
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura" name="altura" step="any" required>
+                <button type="submit">Calcular</button>
+            </form>
+            <div class="resultado-card" id="areaResultado"></div>
+        </section>
+    </main>
+    <script>
+    // Saludo AJAX
+    document.getElementById('saludoForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const nombre = document.getElementById('nombre').value;
+        fetch(`/holamundo?nombre=${encodeURIComponent(nombre)}`)
+            .then(res => res.text())
+            .then(html => {
+                document.getElementById('saludoResultado').innerHTML = html;
+            });
+    });
+
+    // Área AJAX
+    document.getElementById('areaForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const base = document.getElementById('base').value;
+        const altura = document.getElementById('altura').value;
+        fetch(`/area?base=${encodeURIComponent(base)}&altura=${encodeURIComponent(altura)}`)
+            .then(res => res.text())
+            .then(html => {
+                document.getElementById('areaResultado').innerHTML = html;
+            });
+    });
+    </script>
+</body>
+</html>

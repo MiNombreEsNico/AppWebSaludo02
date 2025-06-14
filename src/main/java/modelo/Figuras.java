@@ -30,8 +30,4 @@ public abstract class Figuras implements Requerimiento01  {
     public void setArea(Float area) {
         this.area = area;
     }
-
-    
-
-
 }

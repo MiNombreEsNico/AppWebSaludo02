@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_lD3-IEC-EfCUCe7TyaZxsw" name="AppWebSaludo02">
+    <eAnnotations xmi:id="_mqbFMEC-EfCUCe7TyaZxsw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_mqbFMUC-EfCUCe7TyaZxsw" source="codegen">
+        <details xmi:id="_mqbFMkC-EfCUCe7TyaZxsw" key="codegenDirectory" value="/AppWebSaludo02/src/main/java"/>
+        <details xmi:id="_9zFp4EC-EfCUCe7TyaZxsw" key="AssociatedSourceCode" value="/AppWebSaludo02/src/main/java/requerimiento/Requerimiento01.java;2235075132/1;/AppWebSaludo02/src/main/java/modelo/Figuras.java;388871496/1;/AppWebSaludo02/src/main/java/modelo/Rectangulo.java;2851374207/1;/AppWebSaludo02/src/main/java/modelo/TrianguloRectangulo.java;1479697716/1;/AppWebSaludo02/src/main/java/app/CalcularAreaControlador.java;4231201154/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_9VUv0EC-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_9VUv0UC-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_9VUv0kC-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_9VUv00C-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_9VUv1EC-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_9VUv1UC-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_9VUv1kC-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_9VUv10C-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_9VVW4EC-EfCUCe7TyaZxsw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9VYaMEC-EfCUCe7TyaZxsw" name="requerimiento">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_9VaPYEC-EfCUCe7TyaZxsw" name="Requerimiento01">
+        <ownedOperation xmi:id="_9Vd5wEC-EfCUCe7TyaZxsw" name="calcularArea">
+          <ownedParameter xmi:id="_9VnDsEC-EfCUCe7TyaZxsw" type="_9VlOgUC-EfCUCe7TyaZxsw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9VkncEC-EfCUCe7TyaZxsw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9VlOgEC-EfCUCe7TyaZxsw" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_9VlOgUC-EfCUCe7TyaZxsw" name="Float"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_R1bW0EC_EfCUCe7TyaZxsw" name="modelo">
+      <packagedElement xmi:type="uml:Class" xmi:id="_R1g2YEC_EfCUCe7TyaZxsw" name="Figuras" isAbstract="true">
+        <ownedAttribute xmi:id="_R1xVEEC_EfCUCe7TyaZxsw" name="altura" type="_9VlOgUC-EfCUCe7TyaZxsw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_R1xVEUC_EfCUCe7TyaZxsw" value="0f"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_R1x8IEC_EfCUCe7TyaZxsw" name="base" type="_9VlOgUC-EfCUCe7TyaZxsw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_R1x8IUC_EfCUCe7TyaZxsw" value="0f"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_R1x8IkC_EfCUCe7TyaZxsw" name="area" type="_9VlOgUC-EfCUCe7TyaZxsw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_R1yjMEC_EfCUCe7TyaZxsw" value="0f"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_R1wG8EC_EfCUCe7TyaZxsw" client="_R1g2YEC_EfCUCe7TyaZxsw" supplier="_9VaPYEC-EfCUCe7TyaZxsw" contract="_9VaPYEC-EfCUCe7TyaZxsw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_R13bsEC_EfCUCe7TyaZxsw" name="Figuras" specification="_R1iEgEC_EfCUCe7TyaZxsw">
+          <ownedParameter xmi:id="_R13bsUC_EfCUCe7TyaZxsw" type="_R1g2YEC_EfCUCe7TyaZxsw" direction="return"/>
+          <language>java</language>
+          <body>// TODO Auto-generated constructor stub
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_R1iEgEC_EfCUCe7TyaZxsw" name="Figuras" method="_R13bsEC_EfCUCe7TyaZxsw">
+          <eAnnotations xmi:id="_R1irkEC_EfCUCe7TyaZxsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_R1irkUC_EfCUCe7TyaZxsw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_R1irkkC_EfCUCe7TyaZxsw" type="_R1g2YEC_EfCUCe7TyaZxsw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pYVAcEC_EfCUCe7TyaZxsw" name="Rectangulo">
+        <generalization xmi:id="_pYf_kUC_EfCUCe7TyaZxsw" general="_R1g2YEC_EfCUCe7TyaZxsw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pYgmoEC_EfCUCe7TyaZxsw" name="calcularArea" specification="_pYYq0EC_EfCUCe7TyaZxsw">
+          <ownedParameter xmi:id="_pYgmoUC_EfCUCe7TyaZxsw" type="_9VlOgUC-EfCUCe7TyaZxsw" direction="return"/>
+          <language>java</language>
+          <body>Float a = this.getAltura() * this.getBase();
+
+      return a;
+
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pYWOkEC_EfCUCe7TyaZxsw" name="Rectangulo">
+          <eAnnotations xmi:id="_pYW1oEC_EfCUCe7TyaZxsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_pYW1oUC_EfCUCe7TyaZxsw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_pYYDwEC_EfCUCe7TyaZxsw" type="_pYVAcEC_EfCUCe7TyaZxsw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pYYq0EC_EfCUCe7TyaZxsw" name="calcularArea" method="_pYgmoEC_EfCUCe7TyaZxsw">
+          <ownedParameter xmi:id="_pYf_kEC_EfCUCe7TyaZxsw" type="_9VlOgUC-EfCUCe7TyaZxsw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qyEakEC_EfCUCe7TyaZxsw" name="TrianguloRectangulo">
+        <generalization xmi:id="_qyLIQUC_EfCUCe7TyaZxsw" general="_R1g2YEC_EfCUCe7TyaZxsw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qyLIQkC_EfCUCe7TyaZxsw" name="calcularArea" specification="_qyG20EC_EfCUCe7TyaZxsw">
+          <ownedParameter xmi:id="_qyLIQ0C_EfCUCe7TyaZxsw" type="_9VlOgUC-EfCUCe7TyaZxsw" direction="return"/>
+          <language>java</language>
+          <body>Float a = (this.getAltura() * this.getBase()) / 2;
+
+    return a;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_qyFBoEC_EfCUCe7TyaZxsw" name="TrianguloRectangulo">
+          <eAnnotations xmi:id="_qyFosEC_EfCUCe7TyaZxsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_qyFosUC_EfCUCe7TyaZxsw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_qyGPwUC_EfCUCe7TyaZxsw" type="_qyEakEC_EfCUCe7TyaZxsw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_qyG20EC_EfCUCe7TyaZxsw" name="calcularArea" method="_qyLIQkC_EfCUCe7TyaZxsw">
+          <ownedParameter xmi:id="_qyLIQEC_EfCUCe7TyaZxsw" type="_9VlOgUC-EfCUCe7TyaZxsw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6IKa0EC_EfCUCe7TyaZxsw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6ILB4EC_EfCUCe7TyaZxsw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_6ILB4UC_EfCUCe7TyaZxsw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_6ILB4kC_EfCUCe7TyaZxsw" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_6ILB40C_EfCUCe7TyaZxsw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_6IZEUEC_EfCUCe7TyaZxsw" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_6IZrYEC_EfCUCe7TyaZxsw" name="RequestParam"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_6IZrYkC_EfCUCe7TyaZxsw" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6INeIEC_EfCUCe7TyaZxsw" name="app">
+      <packagedElement xmi:type="uml:Class" xmi:id="_6IOsQEC_EfCUCe7TyaZxsw" name="CalcularAreaControlador">
+        <ownedAttribute xmi:id="_6Ia5gkC_EfCUCe7TyaZxsw" name="triangulo" visibility="private" type="_qyEakEC_EfCUCe7TyaZxsw" association="_6Id80EC_EfCUCe7TyaZxsw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_6Ia5g0C_EfCUCe7TyaZxsw" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gvwysEDAEfCUCe7TyaZxsw" name="rectangulo" visibility="private" type="_pYVAcEC_EfCUCe7TyaZxsw" association="_gvyn4EDAEfCUCe7TyaZxsw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_gvwysUDAEfCUCe7TyaZxsw" value="null"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6IbgkEC_EfCUCe7TyaZxsw" name="CalcularAreaControlador" specification="_6IPTUEC_EfCUCe7TyaZxsw">
+          <ownedParameter xmi:id="_6IbgkUC_EfCUCe7TyaZxsw" type="_6IOsQEC_EfCUCe7TyaZxsw" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated constructor stub
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6IbgkkC_EfCUCe7TyaZxsw" name="area" specification="_6IP6YEC_EfCUCe7TyaZxsw">
+          <ownedParameter xmi:id="_6Ibgk0C_EfCUCe7TyaZxsw" name="altura">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_6IbglEC_EfCUCe7TyaZxsw" name="base">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_6IbglUC_EfCUCe7TyaZxsw" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Float alturaFigura = Float.parseFloat(altura);
+		Float baseFigura = Float.parseFloat(base);
+		
+		rectangulo = new Rectangulo();
+		
+		rectangulo.setAltura(alturaFigura);
+		
+		rectangulo.setBase(baseFigura);
+		
+		Float areaRectangulo = rectangulo.calcularArea();
+		
+		triangulo = new TrianguloRectangulo();
+		
+		triangulo.setAltura(alturaFigura);
+		
+		triangulo.setBase(baseFigura);
+		
+		Float areaTriangulo = triangulo.calcularArea();
+		
+		return &quot;&lt;p>&lt;b>Area rectángulo=, &lt;/p>&lt;/b>&quot; + areaRectangulo.toString() + &quot;&lt;br>&quot;
+				+ &quot;&lt;p>&lt;b>Area triángulo rectángulo=, &lt;/p>&lt;/b>&quot; + areaTriangulo.toString() + &quot;&quot;;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_6IPTUEC_EfCUCe7TyaZxsw" name="CalcularAreaControlador" method="_6IbgkEC_EfCUCe7TyaZxsw">
+          <eAnnotations xmi:id="_6IPTUUC_EfCUCe7TyaZxsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_6IPTUkC_EfCUCe7TyaZxsw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_6IPTU0C_EfCUCe7TyaZxsw" type="_6IOsQEC_EfCUCe7TyaZxsw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_6IP6YEC_EfCUCe7TyaZxsw" name="area" method="_6IbgkkC_EfCUCe7TyaZxsw">
+          <ownedParameter xmi:id="_6IP6YUC_EfCUCe7TyaZxsw" name="altura">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_6IQhcEC_EfCUCe7TyaZxsw" name="base">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_6IQhcUC_EfCUCe7TyaZxsw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6Id80EC_EfCUCe7TyaZxsw" name="" memberEnd="_6Id80UC_EfCUCe7TyaZxsw _6Ia5gkC_EfCUCe7TyaZxsw">
+        <ownedEnd xmi:id="_6Id80UC_EfCUCe7TyaZxsw" name="" type="_6IOsQEC_EfCUCe7TyaZxsw" association="_6Id80EC_EfCUCe7TyaZxsw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gvyn4EDAEfCUCe7TyaZxsw" name="" memberEnd="_gvyn4UDAEfCUCe7TyaZxsw _gvwysEDAEfCUCe7TyaZxsw">
+        <ownedEnd xmi:id="_gvyn4UDAEfCUCe7TyaZxsw" name="" type="_6IOsQEC_EfCUCe7TyaZxsw" association="_gvyn4EDAEfCUCe7TyaZxsw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_mqcTUEC-EfCUCe7TyaZxsw">
+      <eAnnotations xmi:id="_mqdhcEC-EfCUCe7TyaZxsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_mqf9sEC-EfCUCe7TyaZxsw" base_Package="_lD3-IEC-EfCUCe7TyaZxsw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_9VmcoEC-EfCUCe7TyaZxsw" base_Element="_9VlOgUC-EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pYXcsEC_EfCUCe7TyaZxsw" base_Element="_pYWOkEC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pYZR4EC_EfCUCe7TyaZxsw" base_Element="_pYYq0EC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:Annotations xmi:id="_pYZ48EC_EfCUCe7TyaZxsw" base_Element="_pYYq0EC_EfCUCe7TyaZxsw">
+    <annotations xmi:id="_pYagAEC_EfCUCe7TyaZxsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qyGPwEC_EfCUCe7TyaZxsw" base_Element="_qyFBoEC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qyHd4EC_EfCUCe7TyaZxsw" base_Element="_qyG20EC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:Annotations xmi:id="_qyHd4UC_EfCUCe7TyaZxsw" base_Element="_qyG20EC_EfCUCe7TyaZxsw">
+    <annotations xmi:id="_qyHd4kC_EfCUCe7TyaZxsw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6IOsQUC_EfCUCe7TyaZxsw" base_Element="_6IOsQEC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:StyledElement xmi:id="_6IPTVEC_EfCUCe7TyaZxsw" base_Element="_6IPTUEC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:Annotations xmi:id="_6IQhckC_EfCUCe7TyaZxsw" base_Element="_6IP6YUC_EfCUCe7TyaZxsw">
+    <annotations xmi:id="_6IRIgEC_EfCUCe7TyaZxsw" name="RequestParam">
+      <annotationParameters xmi:id="_6IRIgUC_EfCUCe7TyaZxsw" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_gvyA0UDAEfCUCe7TyaZxsw" value="&quot;altura&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_6IRIgkC_EfCUCe7TyaZxsw" name="defaultValue" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_gvyA0kDAEfCUCe7TyaZxsw" value="&quot;5&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6IRIg0C_EfCUCe7TyaZxsw" base_Element="_6IQhcEC_EfCUCe7TyaZxsw">
+    <annotations xmi:id="_6IRIhEC_EfCUCe7TyaZxsw" name="RequestParam">
+      <annotationParameters xmi:id="_6IRvkEC_EfCUCe7TyaZxsw" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_gvyA00DAEfCUCe7TyaZxsw" value="&quot;base&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_6IRvkUC_EfCUCe7TyaZxsw" name="defaultValue" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_gvyA1EDAEfCUCe7TyaZxsw" value="&quot;10&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6IRvkkC_EfCUCe7TyaZxsw" base_Element="_6IP6YEC_EfCUCe7TyaZxsw">
+    <annotations xmi:id="_6IRvk0C_EfCUCe7TyaZxsw" name="GetMapping">
+      <annotationParameters xmi:id="_6IRvlEC_EfCUCe7TyaZxsw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_gvyA0EDAEfCUCe7TyaZxsw" value="&quot;/area&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6ISWoEC_EfCUCe7TyaZxsw" base_Element="_6IOsQEC_EfCUCe7TyaZxsw">
+    <annotations xmi:id="_6ISWoUC_EfCUCe7TyaZxsw" name="RestController"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_6IZEUUC_EfCUCe7TyaZxsw" base_Element="_6IZEUEC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:Reference xmi:id="_6IZrYUC_EfCUCe7TyaZxsw" base_Element="_6IZrYEC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:Reference xmi:id="_6IaScEC_EfCUCe7TyaZxsw" base_Element="_6IZrYkC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:Reference xmi:id="_6Id80kC_EfCUCe7TyaZxsw" base_Element="_6Id80EC_EfCUCe7TyaZxsw"/>
+  <UMLLabProfile:Reference xmi:id="_gvzO8EDAEfCUCe7TyaZxsw" base_Element="_gvyn4EDAEfCUCe7TyaZxsw"/>
+</xmi:XMI>

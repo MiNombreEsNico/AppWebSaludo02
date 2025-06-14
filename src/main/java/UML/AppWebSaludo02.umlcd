@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_mkL6UEC-EfCUCe7TyaZxsw">
+  <modelElement href="AppWebSaludo02.uml#_9VYaMEC-EfCUCe7TyaZxsw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_R2yBsEC_EfCUCe7TyaZxsw" sourceAnchor="79.0,159.0" targetAnchor="119.0,0.0" dashed="true" superClass="_9zU6cEC-EfCUCe7TyaZxsw" subClass="_R21FAEC_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_R1wG8EC_EfCUCe7TyaZxsw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_pY9SkEC_EfCUCe7TyaZxsw" sourceAnchor="284.0,51.0" targetAnchor="0.0,79.0" superClass="_R21FAEC_EfCUCe7TyaZxsw" subClass="_pY_HwEC_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_pYf_kUC_EfCUCe7TyaZxsw"/>
+    <bendpoints xmi:id="_htLdMEDAEfCUCe7TyaZxsw" sourceX="34" targetX="-88" targetY="-64"/>
+    <bendpoints xmi:id="_htLdMUDAEfCUCe7TyaZxsw" sourceX="34" sourceY="64" targetX="-88"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qyyzUEC_EfCUCe7TyaZxsw" sourceAnchor="446.0,49.0" targetAnchor="0.0,79.0" superClass="_R21FAEC_EfCUCe7TyaZxsw" subClass="_qy0ogEC_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_qyLIQUC_EfCUCe7TyaZxsw"/>
+    <bendpoints xmi:id="_htMEQEDAEfCUCe7TyaZxsw" sourceX="30" targetX="-88" targetY="315"/>
+    <bendpoints xmi:id="_htMEQUDAEfCUCe7TyaZxsw" sourceX="30" sourceY="-315" targetX="-88"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6JJ5UEC_EfCUCe7TyaZxsw" sourceAnchor="497.0,124.0" targetAnchor="25.0,0.0" target="_qy0ogEC_EfCUCe7TyaZxsw" source="_6JMVl0C_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_6Id80EC_EfCUCe7TyaZxsw"/>
+    <stereotypes xmi:id="_6JLHdkC_EfCUCe7TyaZxsw" name="Reference">
+      <modelElement href="AppWebSaludo02.uml#_6Id80kC_EfCUCe7TyaZxsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6JLHc0C_EfCUCe7TyaZxsw" text="">
+      <visualProperties xmi:id="_6Kmq0UC_EfCUCe7TyaZxsw" position="41.0,-61.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_6JLHdEC_EfCUCe7TyaZxsw" aggregationKind="NONE" name="">
+      <modelElement href="AppWebSaludo02.uml#_6Id80UC_EfCUCe7TyaZxsw"/>
+      <visualProperties xmi:id="_6Kmq0EC_EfCUCe7TyaZxsw" position="2.0,21.0"/>
+      <visibility xmi:id="_6JMVlEC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_6JMVk0C_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6JLHdUC_EfCUCe7TyaZxsw" aggregationKind="NONE" name="triangulo" navigable="true">
+      <modelElement href="AppWebSaludo02.uml#_6Ia5gkC_EfCUCe7TyaZxsw"/>
+      <visualProperties xmi:id="_6Kmq0kC_EfCUCe7TyaZxsw" position="-95.0,-84.0"/>
+      <visibility xmi:id="_6JMVlkC_EfCUCe7TyaZxsw" label="-"/>
+      <cardinality xmi:id="_6JMVlUC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gv4HcEDAEfCUCe7TyaZxsw" sourceAnchor="512.0,48.0" targetAnchor="142.0,98.0" target="_pY_HwEC_EfCUCe7TyaZxsw" source="_6JMVl0C_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_gvyn4EDAEfCUCe7TyaZxsw"/>
+    <bendpoints xmi:id="_htMrUEDAEfCUCe7TyaZxsw" sourceX="260" targetY="82"/>
+    <stereotypes xmi:id="_gv4HcUDAEfCUCe7TyaZxsw" name="Reference">
+      <modelElement href="AppWebSaludo02.uml#_gvzO8EDAEfCUCe7TyaZxsw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gv4HckDAEfCUCe7TyaZxsw" text="">
+      <visualProperties xmi:id="_htN5cEDAEfCUCe7TyaZxsw" position="2.0,-54.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gv4Hc0DAEfCUCe7TyaZxsw" aggregationKind="NONE" name="">
+      <modelElement href="AppWebSaludo02.uml#_gvyn4UDAEfCUCe7TyaZxsw"/>
+      <visualProperties xmi:id="_htMrUUDAEfCUCe7TyaZxsw" position="16.125,-65.0"/>
+      <visibility xmi:id="_gv4HdEDAEfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_gv4HdUDAEfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gv4HdkDAEfCUCe7TyaZxsw" aggregationKind="NONE" name="rectangulo" navigable="true">
+      <modelElement href="AppWebSaludo02.uml#_gvwysEDAEfCUCe7TyaZxsw"/>
+      <visualProperties xmi:id="_htN5cUDAEfCUCe7TyaZxsw" position="-148.0,18.0"/>
+      <visibility xmi:id="_gv4Hd0DAEfCUCe7TyaZxsw" label="-"/>
+      <cardinality xmi:id="_gv4HeEDAEfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_9zU6cEC-EfCUCe7TyaZxsw" name="Requerimiento01" subclassedBy="_R2yBsEC_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_9VaPYEC-EfCUCe7TyaZxsw"/>
+    <visualProperties xmi:id="_9zVhgEC-EfCUCe7TyaZxsw" position="985.0,320.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9zVhgUC-EfCUCe7TyaZxsw" label="+"/>
+    <operations xmi:id="_9zVhgkC-EfCUCe7TyaZxsw" name="calcularArea">
+      <modelElement href="AppWebSaludo02.uml#_9Vd5wEC-EfCUCe7TyaZxsw"/>
+      <visibility xmi:id="_9zVhg0C-EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_9zVhhEC-EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9zVhhUC-EfCUCe7TyaZxsw">
+        <modelElement href="AppWebSaludo02.uml#_9VnDsEC-EfCUCe7TyaZxsw"/>
+        <type xmi:id="_9zVhhkC-EfCUCe7TyaZxsw" name="Float">
+          <modelElement href="AppWebSaludo02.uml#_9VlOgUC-EfCUCe7TyaZxsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_R21FAEC_EfCUCe7TyaZxsw" name="Figuras" abstractClass="true" generalizations="_R2yBsEC_EfCUCe7TyaZxsw" subclassedBy="_pY9SkEC_EfCUCe7TyaZxsw _qyyzUEC_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_R1g2YEC_EfCUCe7TyaZxsw"/>
+    <visualProperties xmi:id="_R21FAUC_EfCUCe7TyaZxsw" position="1025.0,51.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_R21FAkC_EfCUCe7TyaZxsw" label="+"/>
+    <attributes xmi:id="_R21FA0C_EfCUCe7TyaZxsw" defaultValue="0f" name="altura">
+      <modelElement href="AppWebSaludo02.uml#_R1xVEEC_EfCUCe7TyaZxsw"/>
+      <visibility xmi:id="_R21FBEC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_R21FBUC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <type xmi:id="_R21FBkC_EfCUCe7TyaZxsw" name="Float">
+        <modelElement href="AppWebSaludo02.uml#_9VlOgUC-EfCUCe7TyaZxsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R21FB0C_EfCUCe7TyaZxsw" defaultValue="0f" name="base">
+      <modelElement href="AppWebSaludo02.uml#_R1x8IEC_EfCUCe7TyaZxsw"/>
+      <visibility xmi:id="_R21FCEC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_R21FCUC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <type xmi:id="_R21FCkC_EfCUCe7TyaZxsw" name="Float">
+        <modelElement href="AppWebSaludo02.uml#_9VlOgUC-EfCUCe7TyaZxsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R21FC0C_EfCUCe7TyaZxsw" defaultValue="0f" name="area">
+      <modelElement href="AppWebSaludo02.uml#_R1x8IkC_EfCUCe7TyaZxsw"/>
+      <visibility xmi:id="_R21FDEC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_R21FDUC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <type xmi:id="_R21FDkC_EfCUCe7TyaZxsw" name="Float">
+        <modelElement href="AppWebSaludo02.uml#_9VlOgUC-EfCUCe7TyaZxsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_R21FD0C_EfCUCe7TyaZxsw" name="Figuras">
+      <modelElement href="AppWebSaludo02.uml#_R1iEgEC_EfCUCe7TyaZxsw"/>
+      <keywords xmi:id="_R21FEEC_EfCUCe7TyaZxsw" keyword="create"/>
+      <visibility xmi:id="_R21FEUC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_R21FEkC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R21FE0C_EfCUCe7TyaZxsw">
+        <modelElement href="AppWebSaludo02.uml#_R1irkkC_EfCUCe7TyaZxsw"/>
+        <type xmi:id="_R21FFEC_EfCUCe7TyaZxsw" name="Figuras">
+          <modelElement href="AppWebSaludo02.uml#_R1g2YEC_EfCUCe7TyaZxsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pY_HwEC_EfCUCe7TyaZxsw" name="Rectangulo" associationsIn="_gv4HcEDAEfCUCe7TyaZxsw" generalizations="_pY9SkEC_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_pYVAcEC_EfCUCe7TyaZxsw"/>
+    <visualProperties xmi:id="_pY_HwUC_EfCUCe7TyaZxsw" position="619.0,15.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pY_HwkC_EfCUCe7TyaZxsw" label="+"/>
+    <operations xmi:id="_pY_Hw0C_EfCUCe7TyaZxsw" name="Rectangulo">
+      <modelElement href="AppWebSaludo02.uml#_pYWOkEC_EfCUCe7TyaZxsw"/>
+      <keywords xmi:id="_pY_HxEC_EfCUCe7TyaZxsw" keyword="create"/>
+      <stereotypes xmi:id="_pY_HxUC_EfCUCe7TyaZxsw" name="LegacyStyledElement">
+        <modelElement href="AppWebSaludo02.uml#_pYXcsEC_EfCUCe7TyaZxsw"/>
+      </stereotypes>
+      <visibility xmi:id="_pY_HxkC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_pY_Hx0C_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pY_HyEC_EfCUCe7TyaZxsw">
+        <modelElement href="AppWebSaludo02.uml#_pYYDwEC_EfCUCe7TyaZxsw"/>
+        <type xmi:id="_pY_HyUC_EfCUCe7TyaZxsw" name="Rectangulo">
+          <modelElement href="AppWebSaludo02.uml#_pYVAcEC_EfCUCe7TyaZxsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pY_HykC_EfCUCe7TyaZxsw" name="calcularArea">
+      <modelElement href="AppWebSaludo02.uml#_pYYq0EC_EfCUCe7TyaZxsw"/>
+      <stereotypes xmi:id="_pY_Hy0C_EfCUCe7TyaZxsw" name="LegacyStyledElement">
+        <modelElement href="AppWebSaludo02.uml#_pYZR4EC_EfCUCe7TyaZxsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_pY_HzEC_EfCUCe7TyaZxsw" name="Annotations">
+        <modelElement href="AppWebSaludo02.uml#_pYZ48EC_EfCUCe7TyaZxsw"/>
+      </stereotypes>
+      <visibility xmi:id="_pY_HzUC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_pY_HzkC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pY_Hz0C_EfCUCe7TyaZxsw">
+        <modelElement href="AppWebSaludo02.uml#_pYf_kEC_EfCUCe7TyaZxsw"/>
+        <type xmi:id="_pY_H0EC_EfCUCe7TyaZxsw" name="Float">
+          <modelElement href="AppWebSaludo02.uml#_9VlOgUC-EfCUCe7TyaZxsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qy0ogEC_EfCUCe7TyaZxsw" name="TrianguloRectangulo" associationsIn="_6JJ5UEC_EfCUCe7TyaZxsw" generalizations="_qyyzUEC_EfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_qyEakEC_EfCUCe7TyaZxsw"/>
+    <visualProperties xmi:id="_qy0ogUC_EfCUCe7TyaZxsw" position="461.0,396.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qy0ogkC_EfCUCe7TyaZxsw" label="+"/>
+    <operations xmi:id="_qy0og0C_EfCUCe7TyaZxsw" name="TrianguloRectangulo">
+      <modelElement href="AppWebSaludo02.uml#_qyFBoEC_EfCUCe7TyaZxsw"/>
+      <keywords xmi:id="_qy0ohEC_EfCUCe7TyaZxsw" keyword="create"/>
+      <stereotypes xmi:id="_qy0ohUC_EfCUCe7TyaZxsw" name="LegacyStyledElement">
+        <modelElement href="AppWebSaludo02.uml#_qyGPwEC_EfCUCe7TyaZxsw"/>
+      </stereotypes>
+      <visibility xmi:id="_qy0ohkC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_qy0oh0C_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qy0oiEC_EfCUCe7TyaZxsw">
+        <modelElement href="AppWebSaludo02.uml#_qyGPwUC_EfCUCe7TyaZxsw"/>
+        <type xmi:id="_qy0oiUC_EfCUCe7TyaZxsw" name="TrianguloRectangulo">
+          <modelElement href="AppWebSaludo02.uml#_qyEakEC_EfCUCe7TyaZxsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qy0oikC_EfCUCe7TyaZxsw" name="calcularArea">
+      <modelElement href="AppWebSaludo02.uml#_qyG20EC_EfCUCe7TyaZxsw"/>
+      <stereotypes xmi:id="_qy0oi0C_EfCUCe7TyaZxsw" name="LegacyStyledElement">
+        <modelElement href="AppWebSaludo02.uml#_qyHd4EC_EfCUCe7TyaZxsw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qy0ojEC_EfCUCe7TyaZxsw" name="Annotations">
+        <modelElement href="AppWebSaludo02.uml#_qyHd4UC_EfCUCe7TyaZxsw"/>
+      </stereotypes>
+      <visibility xmi:id="_qy0ojUC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_qy0ojkC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qy0oj0C_EfCUCe7TyaZxsw">
+        <modelElement href="AppWebSaludo02.uml#_qyLIQEC_EfCUCe7TyaZxsw"/>
+        <type xmi:id="_qy0okEC_EfCUCe7TyaZxsw" name="Float">
+          <modelElement href="AppWebSaludo02.uml#_9VlOgUC-EfCUCe7TyaZxsw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6JMVl0C_EfCUCe7TyaZxsw" name="CalcularAreaControlador" associationsOut="_6JJ5UEC_EfCUCe7TyaZxsw _gv4HcEDAEfCUCe7TyaZxsw">
+    <modelElement href="AppWebSaludo02.uml#_6IOsQEC_EfCUCe7TyaZxsw"/>
+    <visualProperties xmi:id="_6JMVmEC_EfCUCe7TyaZxsw" position="-11.0,147.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6JMVmUC_EfCUCe7TyaZxsw" name="LegacyStyledElement">
+      <modelElement href="AppWebSaludo02.uml#_6IOsQUC_EfCUCe7TyaZxsw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6JMVmkC_EfCUCe7TyaZxsw" name="Annotations">
+      <modelElement href="AppWebSaludo02.uml#_6ISWoEC_EfCUCe7TyaZxsw"/>
+    </stereotypes>
+    <visibility xmi:id="_6JMVm0C_EfCUCe7TyaZxsw" label="+"/>
+    <attributes xmi:id="_6JMVoEC_EfCUCe7TyaZxsw" defaultValue="null" name="triangulo">
+      <modelElement href="AppWebSaludo02.uml#_6Ia5gkC_EfCUCe7TyaZxsw"/>
+      <visibility xmi:id="_6JMVoUC_EfCUCe7TyaZxsw" label="-"/>
+      <cardinality xmi:id="_6JMVokC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <type xmi:id="_6JMVo0C_EfCUCe7TyaZxsw" name="TrianguloRectangulo">
+        <modelElement href="AppWebSaludo02.uml#_qyEakEC_EfCUCe7TyaZxsw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gv4ugEDAEfCUCe7TyaZxsw" defaultValue="null" name="rectangulo">
+      <modelElement href="AppWebSaludo02.uml#_gvwysEDAEfCUCe7TyaZxsw"/>
+      <visibility xmi:id="_gv4ugUDAEfCUCe7TyaZxsw" label="-"/>
+      <cardinality xmi:id="_gv4ugkDAEfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <type xmi:id="_gv4ug0DAEfCUCe7TyaZxsw" name="Rectangulo">
+        <modelElement href="AppWebSaludo02.uml#_pYVAcEC_EfCUCe7TyaZxsw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6JMVpEC_EfCUCe7TyaZxsw" name="CalcularAreaControlador">
+      <modelElement href="AppWebSaludo02.uml#_6IPTUEC_EfCUCe7TyaZxsw"/>
+      <keywords xmi:id="_6JMVpUC_EfCUCe7TyaZxsw" keyword="create"/>
+      <stereotypes xmi:id="_6JMVpkC_EfCUCe7TyaZxsw" name="StyledElement">
+        <modelElement href="AppWebSaludo02.uml#_6IPTVEC_EfCUCe7TyaZxsw"/>
+      </stereotypes>
+      <visibility xmi:id="_6JMVp0C_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_6JMVqEC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6JMVqUC_EfCUCe7TyaZxsw">
+        <modelElement href="AppWebSaludo02.uml#_6IPTU0C_EfCUCe7TyaZxsw"/>
+        <type xmi:id="_6JMVqkC_EfCUCe7TyaZxsw" name="CalcularAreaControlador">
+          <modelElement href="AppWebSaludo02.uml#_6IOsQEC_EfCUCe7TyaZxsw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6JMVq0C_EfCUCe7TyaZxsw" name="area">
+      <modelElement href="AppWebSaludo02.uml#_6IP6YEC_EfCUCe7TyaZxsw"/>
+      <stereotypes xmi:id="_6JMVrEC_EfCUCe7TyaZxsw" name="Annotations">
+        <modelElement href="AppWebSaludo02.uml#_6IRvkkC_EfCUCe7TyaZxsw"/>
+      </stereotypes>
+      <visibility xmi:id="_6JMVrUC_EfCUCe7TyaZxsw" label="+"/>
+      <cardinality xmi:id="_6JMVrkC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6JMVr0C_EfCUCe7TyaZxsw">
+        <modelElement href="AppWebSaludo02.uml#_6IQhcUC_EfCUCe7TyaZxsw"/>
+        <type xmi:id="_6JMVsEC_EfCUCe7TyaZxsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6JMVsUC_EfCUCe7TyaZxsw" name="altura">
+        <modelElement href="AppWebSaludo02.uml#_6IP6YUC_EfCUCe7TyaZxsw"/>
+        <cardinality xmi:id="_6JMVskC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+        <type xmi:id="_6JMVs0C_EfCUCe7TyaZxsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6JMVtEC_EfCUCe7TyaZxsw" name="base">
+        <modelElement href="AppWebSaludo02.uml#_6IQhcEC_EfCUCe7TyaZxsw"/>
+        <cardinality xmi:id="_6JMVtUC_EfCUCe7TyaZxsw" label="1" max="1" min="1"/>
+        <type xmi:id="_6JMVtkC_EfCUCe7TyaZxsw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

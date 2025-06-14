@@ -4,20 +4,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import modelo.Circulo;
 import modelo.Rectangulo;
 import modelo.TrianguloRectangulo;
-import modelo.Circulo;
 
 @RestController
 public class CalcularAreaControlador {
         
-    public CalcularAreaControlador() {
-        // Constructor por defecto
-    }
-    private Rectangulo rectangulo = null;
-    private TrianguloRectangulo triangulo = null;
-    private Circulo circulo = null;
-    
     @GetMapping("/area")
     public String area(@RequestParam(value = "altura", defaultValue = "5") String altura,
                        @RequestParam(value = "base", defaultValue = "10") String base,
@@ -26,14 +19,14 @@ public class CalcularAreaControlador {
         Float alturaFigura = Float.parseFloat(altura);
         Float baseFigura = Float.parseFloat(base);
         
-        rectangulo = new Rectangulo();
+        Rectangulo rectangulo = new Rectangulo();
         rectangulo.setAltura(alturaFigura);
         rectangulo.setBase(baseFigura);
         Float areaRectangulo = rectangulo.calcularArea();
         Float perimetroRectangulo = rectangulo.calcularPerimetro();
         Float hipotenusaRectangulo = rectangulo.calcularHipotenusa();
         
-        triangulo = new TrianguloRectangulo();
+        TrianguloRectangulo triangulo = new TrianguloRectangulo();
         triangulo.setAltura(alturaFigura);
         triangulo.setBase(baseFigura);
         Float areaTriangulo = triangulo.calcularArea();
@@ -44,7 +37,7 @@ public class CalcularAreaControlador {
         if (radio != null && !radio.isEmpty()) {
             try {
                 Float radioFigura = Float.parseFloat(radio);
-                circulo = new Circulo(radioFigura);
+                Circulo circulo = new Circulo(radioFigura);
                 Float areaCirculo = circulo.calcularArea();
                 Float perimetroCirculo = circulo.calcularPerimetro();
                 Float hipotenusaCirculo = circulo.calcularHipotenusa();
